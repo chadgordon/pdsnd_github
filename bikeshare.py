@@ -26,10 +26,10 @@ def input_city():
                 print('The Windy City is beautiful this time of year. Great choice!')
                 return 'chicago'
             if city == '2':
-                print('NYC huh? Not my first pick, but I respect it. New York City coming up!')
+                print('NYC huh? I respect it. New York City coming up!')
                 return 'new york city'
             if city == '3':
-                print('Washington? Really...? I don\'t approve. But I suppose we can run with it...')
+                print('Washington? THAT IS MY FAVORITE! We can definitely run with it...')
                 return 'washington'
             else:     # the else allows us to keep trying until we hit an acceptable input
                 print('I hate to be a bother but would you mind using the numbers 1, 2, or 3?')
@@ -226,7 +226,15 @@ def main():
     for i in list_of_functions:
         process(i, df)
 
+<<<<<<< HEAD
     # user option to restart the whole thing - maybe we should thank the user for using our analysis??
+||||||| merged common ancestors
+    # user option to restart the whole thing
+=======
+    # user option to restart the whole thing
+    print('Thank you for using our analysis!')
+    print(' ')
+>>>>>>> refractoring
     restart = input("\n * Would you like to do it again and perform another analysis? Type \'yes\' or \'no\'.\n")
     if restart.upper() == 'YES' or restart.upper() == "Y":
         main()
