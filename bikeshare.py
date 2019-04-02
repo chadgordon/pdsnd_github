@@ -226,7 +226,7 @@ def main():
     for i in list_of_functions:
         process(i, df)
 
-    # user option to restart the whole thing
+    # user option to restart the whole thing - maybe we should thank the user for using our analysis??
     restart = input("\n * Would you like to do it again and perform another analysis? Type \'yes\' or \'no\'.\n")
     if restart.upper() == 'YES' or restart.upper() == "Y":
         main()
