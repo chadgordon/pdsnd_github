@@ -29,7 +29,7 @@ def input_city():
                 print('NYC huh? I respect it. New York City coming up!')
                 return 'new york city'
             if city == '3':
-                print('Washington? Really...? I don\'t approve. But I suppose we can run with it...')
+                print('Washington? THAT IS MY FAVORITE! We can definitely run with it...')
                 return 'washington'
             else:     # the else allows us to keep trying until we hit an acceptable input
                 print('I hate to be a bother but would you mind using the numbers 1, 2, or 3?')
