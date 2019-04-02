@@ -13,5 +13,5 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-During this project, both google and stackoverflow were used frequently when a specific syntax issue arose.
+During this project, both google and stackoverflow were used frequently when a specific syntax issue arose - as is common amongst those working with complex languages with a multitude of packages.
 
