@@ -227,6 +227,8 @@ def main():
         process(i, df)
 
     # user option to restart the whole thing
+    print('Thank you for using our analysis!')
+    print(' ')
     restart = input("\n * Would you like to do it again and perform another analysis? Type \'yes\' or \'no\'.\n")
     if restart.upper() == 'YES' or restart.upper() == "Y":
         main()
