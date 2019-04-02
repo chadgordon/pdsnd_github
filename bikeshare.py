@@ -26,7 +26,7 @@ def input_city():
                 print('The Windy City is beautiful this time of year. Great choice!')
                 return 'chicago'
             if city == '2':
-                print('NYC huh? Not my first pick, but I respect it. New York City coming up!')
+                print('NYC huh? I respect it. New York City coming up!')
                 return 'new york city'
             if city == '3':
                 print('Washington? Really...? I don\'t approve. But I suppose we can run with it...')
